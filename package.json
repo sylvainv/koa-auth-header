@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "https://github.com/sylvainv"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  },
+  "description": "Simple Koa Authorization Header Parser",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "koa": "^0.21.0",
+    "mocha": "^2.2.5",
+    "supertest-koa-agent": "^0.2.1"
+  },
+  "directories": {},
+  "keywords": [
+    "authentication",
+    "authorization",
+    "koa",
+    "token"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sylvainv",
+      "email": "sylvain.verly@gmail.com"
+    }
+  ],
+  "name": "koa-auth-header",
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "mocha --harmony-generators --harmony_arrow_functions"
+  },
+  "version": "1.1.1"
+}
