@@ -30,7 +30,7 @@
   "name": "koa-auth-header",
   "optionalDependencies": {},
   "scripts": {
-    "test": "mocha --harmony-generators --harmony_arrow_functions"
+    "test": "mocha test"
   },
-  "version": "1.1.1"
+  "version": "1.1.2"
 }

@@ -19,8 +19,7 @@ module.exports = function (options) {
       return;
     }
 
-    var parts = header.authorization.split(/[\W]+/);
-    parts = parts.map((value) => {return value.trim()});
+    var parts = header.authorization.trim().split(/[ ]+/);
 
     if (parts.length === 2 && _.has(options.types, parts[0])) {
       // call the corresponding function for the type of authorization
